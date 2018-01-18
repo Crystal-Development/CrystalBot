@@ -1,0 +1,24 @@
+{
+  "name": "crystal-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for fun & moderation",
+  "main": "index.js",
+  "repository": "https://github.com/Crystal-Development/CrystalBot.git",
+  "author": "Crystal Development <teamcrystaldevs@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn lint && node .",
+    "lint": "eslint --fix index.js src",
+    "dev": "nodemon -w index.js -w config.json -w src --exec 'yarn start'"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "fs-extra": "^5.0.0",
+    "readdir-recursive": "^0.0.4",
+    "snekfetch": "^3.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "nodemon": "^1.14.11"
+  }
+}
