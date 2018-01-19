@@ -1,0 +1,9 @@
+{
+    "token": "Get a token at https://discordapp.com/developers/applications/me",
+    "prefix": ">",
+    "embedColor": [
+        200,
+        20,
+        210
+    ]
+}
